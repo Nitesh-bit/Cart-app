@@ -1,0 +1,8 @@
+.header h1 {
+  width: 100%;
+  font-size: 25px;
+  color: #fff;
+  background-color: rgb(37, 122, 242);
+  text-align: center;
+  padding: 12px;
+}

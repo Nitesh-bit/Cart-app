@@ -1,0 +1,28 @@
+.navbar {
+  background-color: rgba(9, 250, 85);
+  width: 100%;
+  transition: top 0.3s; /* Smooth transition for the top property */
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px;
+}
+
+.fixed-navbar {
+  position: fixed; /* Fix the navbar to the top */
+  top: 0; /* Ensure it stays at the top of the viewport */
+}
+.navbar li {
+  list-style: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #636060;
+  font-size: 20px;
+}
